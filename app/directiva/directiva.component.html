@@ -1,0 +1,12 @@
+
+<!-- Crea el botón que permite implementar el metodo directva para mostrar y ocultar lista de trámites -->
+  <button type="button" (click)="setHabilitar()" class="btn btn-primary my-3">
+  {{habilitar==true?'Ocultar':'Mostrar'}}</button>
+<div class="card">
+  <div class="card-header">
+    <b>Listado de trámites</b>
+  </div>
+  <ul class="list-group"*ngIf="habilitar==true">
+    <li class="list-group-item" *ngFor="let lista of listatramites">{{lista}}</li>
+  </ul>
+</div>

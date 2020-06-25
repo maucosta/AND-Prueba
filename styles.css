@@ -1,0 +1,9 @@
+.area-ppal{
+  position:static;
+  -webkit-box-shadow:0 0px 3px #777, 0 0 7px #CCC inset;
+  -moz-box-shadow:0 0px 2px #777, 0 0 7px #CCC inset;
+  box-shadow:0 0px 2px #777, 0 0 7px #CCC inset;
+  width: 90%;
+  padding: 1rem 2rem;
+  margin: 1rem 5rem;
+}

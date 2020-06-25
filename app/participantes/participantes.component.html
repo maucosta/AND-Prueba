@@ -1,0 +1,32 @@
+<div class="card border-primary mb-3">
+  <div class="card-header">Participantes</div>
+  <div class="card-body text-primary">
+    <h5 class="card-title">Listado de participantes</h5>
+<!-- tabla paramétrica del json participantes -->
+<table class="table table-bordered table-striped">
+ <thead>
+
+   <tr>
+     <th>id</th>
+     <th>nombre</th>
+     <th>apellido</th>
+     <th>email</th>
+     <th>fecha</th>
+   </tr>
+
+ </thead>
+
+ <tbody>
+
+   <tr *ngFor="let participantes of participantes ">
+     <td>{{participantes.id}}</td>
+     <td>{{participantes.nombre}}</td>
+     <td>{{participantes.apellido}}</td>
+     <td>{{participantes.email}}</td>
+     <td>{{participantes.createAt}}</td>
+   </tr>
+
+ </tbody>
+</table>
+</div>
+</div>
